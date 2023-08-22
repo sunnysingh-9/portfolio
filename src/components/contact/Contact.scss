@@ -1,0 +1,123 @@
+@import "../../global.scss";
+
+.contact{
+    background-color:white;
+    display: flex;
+    
+    @include mobile{
+        flex-direction: column;
+    }
+    
+    .left{
+        flex: 1;
+        overflow: hidden;
+
+        @include mobile{
+            flex-direction: column;
+        }
+
+
+        
+        
+        img{
+            height: 100%;
+            
+            @include mobile{
+                width: 99%;
+            }
+        }
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        h2{
+            font-size: 30px;
+            overflow: hidden;
+            font-weight: 800;
+
+            @include mobile{
+                font-size: 25px;
+            }
+        }
+
+        form{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            @include mobile{
+                height: 100%;
+            }
+
+    
+
+            label{
+                font-size: 20px;
+                font-weight: 500;
+                display: flex;
+                align-items: flex-start;
+                justify-content: left;
+
+                @include mobile{
+                    font-size: 15px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+            }
+
+            input{
+                width: 350px;
+                height: 40px;
+                font-size: 15px;
+                border: 2px solid black;
+                border-radius: 5px;
+
+                @include mobile{
+                    width: 250px;
+                    height: 50px;
+                }
+            }
+
+            textarea{
+                width: 350px;
+                height: 200px;
+                font-size: 15px;
+                border: 2px solid black;
+                border-radius: 5px;
+
+                @include mobile{
+                    width: 250px;
+                    height: 200px;
+                }
+            }
+
+            button{
+                width: 160px;
+                height: 30px;
+                color: white;
+                background-color: crimson;
+                border: none;
+                border-radius: 10px;
+                font-weight: 500;
+                cursor: pointer;
+
+                &:focus{
+                    outline: none;
+                }
+
+            }
+
+            span{
+                color: green;
+            }
+        }
+    }
+}

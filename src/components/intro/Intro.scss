@@ -1,0 +1,191 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: white;
+    background-color: #F5F5F5;
+    display: flex;
+    overflow: hidden;
+    // background-image: url(../images/bg.jpg);
+    
+
+    
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .left{
+        flex: 0.47;
+        overflow: hidden;
+        padding-top: 50px;
+        padding-right: 50px;
+
+        .imgcontainer{
+            width: 550px;
+            height: 550px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            justify-content: center;
+            float: right;
+            overflow: hidden;
+            border: #CCCCCC;
+
+            @include mobile{
+                align-items: flex-start;
+                width: 400px;
+                height: 400px;
+                margin-top: 0;
+                padding-left: 60px;
+            }
+
+            img{
+                height: 100%;
+                width: 100%;
+
+            }
+
+        }
+        
+    }
+    .right{
+        flex: 0.47;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+            }
+        }
+        h1{
+            overflow: hidden;
+            font-size: 60px;
+            margin: 10px 0;
+            // color: #213c3c;
+            color: #333333;
+
+            @include mobile{
+                font-size: 40px;
+            }
+
+        }
+        h2{
+         overflow: hidden;
+         font-size: 35px;
+         color: #333333;
+        }
+        h5{
+            overflow: hidden;
+            // color: #2d5b5b;
+            color: #555555;
+
+            @include mobile{
+                display: none;
+            }
+        }
+        h3{
+            overflow: hidden;
+            font-size: 30px;
+
+            @include mobile{
+                font-size: 25px;
+            }
+            
+            span{
+                font-size: inherit;
+                // color: crimson;
+                // color:#213c3c;
+                color: #555555;
+            }
+
+            .ityped-cursor{
+                animation: blink 1s infinite;
+            }
+
+            @keyframes blink{
+                50%{
+                    opacity: 1;
+                }
+                100%{
+                    opacity: 0;
+                }
+            }
+
+        }
+
+        h4{
+            overflow: hidden;
+            // color: #2d5b5b;
+            color: #555555;
+            @include mobile{
+                display: none;
+            }
+        }
+        
+        .cv{
+            // background-color: blueviolet;
+            // padding-bottom: 30px;
+            margin-bottom: 80px;
+
+            @include mobile{
+                margin-bottom:0;
+            }
+
+
+            button{
+                background-color: rgb(190, 143, 234);
+                background-color: #00A6ED;
+                height: 40px;
+                width: 150px;
+                border: 1px solid black;
+                border-radius: 5px;
+                cursor:pointer;
+
+                @include mobile{
+                    width: 100px;
+                    height: 20px;
+                    margin-left: 35px;
+                    margin-top: 280px;
+                }
+
+
+            }
+        }
+        
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+
+                @include mobile{
+                 padding-right: 35px;
+                }
+            }
+
+            @keyframes arrowBlink{
+                100%{
+                    opacity: 0;
+                }
+            }
+
+            @include mobile{
+                position: absolute;
+                bottom: 0;
+                left: 28%;
+            }
+        }
+    }
+}

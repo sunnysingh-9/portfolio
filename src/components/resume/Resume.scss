@@ -1,0 +1,44 @@
+.resume{
+    background-color: aquamarine;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    // display: flex;
+    // flex-direction: column;
+    
+    
+    .resume1{
+        
+        background-color: aquamarine;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        // align-items: flex-end;
+        
+    }
+        .download{
+            height: 50px;
+            width: 150px;
+            background-color: rgb(174, 124, 221);
+            font-size: larger;
+            font-weight: 600;
+            text-decoration: none;
+            // text-align: center;
+            align-items: center;
+            border: 2px solid rgb(238, 250, 252);
+            border-radius: 6px;
+            
+            
+            
+            .download1{
+                text-align: center;
+                align-items: center;
+            }
+            
+            
+        }
+  
+
+
+}

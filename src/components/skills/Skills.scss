@@ -1,0 +1,361 @@
+@import "../../global.scss";
+
+.skills{
+    height: 100%;
+    width: 100%;
+    // background-color: whitesmoke;
+    background-color:  #FFFFFF;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .topbar{
+        // background-color:#2587be;
+        background-color: #2587BE;
+        // background-color: aqua;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: xx-large;
+        font-weight: 900;
+        color:rgb(118, 12, 104);
+        overflow: hidden;
+
+    }
+
+    .section{
+        // background-color: rgb(98, 105, 144);
+        width: 100vw;
+        height: calc(100vh - 60px);
+        // height: 100vh;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+
+        .row1{
+            width: 100vw;
+            // height: calc(100vh - 650px);
+            height: 170px;
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+            justify-content: space-around;
+            overflow: hidden;
+            // background-color: aqua;
+
+
+            .columb1{
+                background-color: black;
+                width: 250px;
+                height: 170px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                // background-color: bisque;
+                // background-color: #25a5be;
+                background-color: #25A5BE;
+                overflow: hidden;
+                border: 2px;
+                border-radius: 15px;
+
+                @include mobile{
+                    width: 170px;
+                    height: 140px;
+                    margin: 5px;
+                }
+
+                img{
+                    height: 100px;
+                    width: 100px;
+                    background-color: rgb(106, 103, 100);
+                    border-radius: 50%;
+
+                    @include mobile{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+
+                h4{
+                    overflow: hidden;
+                    height: 30px;
+                    width: 250px;
+                    text-align: center;
+                    font-size:x-large;
+                    font-weight: 500;
+                    padding-bottom: 20px;
+
+                    @include mobile{
+                        height: 20px;
+                        width: 200px;
+                        font-size: medium;
+                        
+                    }
+                }
+
+                .outerbarhtml{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarhtml{
+                        background-color: #555555;
+                        height: 13px;
+                        width: 180px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarcss{
+                    background-color: whitesmoke;
+                    // background-color: rgb(58, 11, 11);
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarcss{
+                        // background-color: rgb(58, 11, 11);
+                        background-color: #555555;
+                        height: 13px;
+                        width: 160px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarjava{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarjava{
+                        background-color: #555555;
+                        height: 13px;
+                        width: 160px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarc{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarc{
+                        background-color: #555555;
+                        height: 13px;
+                        width: 160px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarreact{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarreact{
+                        background-color: #555555;
+                        height: 13px;
+                        width: 160px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarnode{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarnode{
+                        background-color: #555555;
+                        height: 13px;
+                        width: 150px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarexpress{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarexpress{
+                        background-color: #555555;
+                        height: 13px;
+                        width: 100px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                .outerbarmongo{
+                    background-color: whitesmoke;
+                    height: 15px;
+                    width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    border-radius: 8px;
+
+                    @include mobile{
+                        height: 10px;
+                        width: 100px;
+                    }
+
+
+
+                    .innerbarmongo{
+                        background-color: rgb(58, 11, 11);
+                        background-color: #555555;
+                        height: 13px;
+                        width: 100px;
+                        overflow: hidden;
+                        border-radius: 8px;
+
+                        @include mobile{
+                            height: 10px;
+                            width: 80px;
+                        }
+                    }
+                }
+                
+
+                h2{
+                    overflow: hidden;
+                    color:rgb(58, 11, 11);
+                }
+
+
+            }
+
+            
+
+            
+
+            
+
+        }
+
+    }
+}
