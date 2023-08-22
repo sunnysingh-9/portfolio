@@ -3,10 +3,10 @@ import Navbar from './components/navbar/Navbar';
 import Intro from './components/intro/Intro'
 import Skills from './components/skills/Skills'
 import Work from './components/works/Work'
-import Testmonials from './components/testmonials/Testmonials'
+// import Testmonials from './components/testmonials/Testmonials'
 import Contact from './components/contact/Contact'
 import Menu from './components/menu/Menu'
-import Resume from './components/resume/Resume'
+// import Resume from './components/resume/Resume'
 import './app.scss';
 import  {useState} from 'react'
 
