@@ -3,17 +3,13 @@
 .skills{
     height: 100%;
     width: 100%;
-    // background-color: whitesmoke;
     background-color:  #FFFFFF;
     display: flex;
-    // align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin-top: 2%;
 
     .topbar{
-        // background-color:#2587be;
-        // background-color: #2587BE;
-        // background-color: aqua;
         width: 100vw;
         height: 60px;
         display: flex;
@@ -28,10 +24,8 @@
     }
 
     .section{
-        // background-color: rgb(98, 105, 144);
         width: 100vw;
         height: calc(100vh - 60px);
-        // height: 100vh;
         top: 100px;
         display: flex;
         flex-direction: column;
@@ -44,15 +38,11 @@
 
         .row1{
             width: 100vw;
-            // height: calc(100vh - 650px);
             height: 170px;
             display: flex;
             align-items: center;
-            // justify-content: center;
             justify-content: space-around;
             overflow: hidden;
-            // background-color: aqua;
-
 
             .columb1{
                 width: 250px;
@@ -289,8 +279,6 @@
                         width: 100px;
                     }
 
-
-
                     .innerbarexpress{
                         background-color: #555555;
                         height: 13px;
@@ -317,8 +305,6 @@
                         height: 10px;
                         width: 100px;
                     }
-
-
 
                     .innerbarmongo{
                         background-color: rgb(58, 11, 11);

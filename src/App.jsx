@@ -7,7 +7,9 @@ import Work from './components/works/Work'
 import Contact from './components/contact/Contact'
 import Menu from './components/menu/Menu'
 // import Resume from './components/resume/Resume'
-import './app.scss';
+import Footer from './components/footer/Footer'
+
+// import './app.scss';
 import  {useState} from 'react'
 
 
@@ -27,6 +29,7 @@ function App() {
 <Work/>
 {/* <Testmonials/> */}
 <Contact/>
+<Footer/>
 {/* <Resume/> */}
  </div>
 
