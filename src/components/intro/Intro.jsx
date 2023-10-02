@@ -42,7 +42,7 @@ export default function Intro() {
         </div>
 
         <div>
-          <a href="https://drive.google.com/file/d/1XOf9IZ5jq4KFLf54XbQXUwxxOY-Mcuaq/view?usp=share_link"  target="_blank" rel="noreferrer" className="cv" > <button>Download CV</button></a>
+          <a href="https://drive.google.com/file/d/1MPZ_4CKq2WsZIw6dP-X3QfzVixIT0uHV/view?usp=drive_link"  target="_blank" rel="noreferrer" className="cv" > <button>Download CV</button></a>
         </div>
         <a href="#portfolio">
         <img src="assets/downarrow.jpg" alt="" />
