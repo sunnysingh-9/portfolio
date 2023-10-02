@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.scss';
-import { FaLinkedin } from "react-icons/fa";
+import { FaCode, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -51,6 +51,10 @@ export default function Menu({menuOpen , setmenuOpen}) {
             <li>
                 <a href="mailto: sunnysingh21978@gmail.com" target="_blank" rel="noreferrer"> < MdEmail/></a>
            
+            </li>
+            <li>
+                <a href="https://leetcode.com/sunnysingh7/" target="_blank" rel="noreferrer"><FaCode/></a>
+            
             </li>
         </ul>
 
