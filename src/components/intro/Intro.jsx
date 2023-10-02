@@ -23,8 +23,8 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hello There , I'm </h2>
-          <h1>SUNNY SINGH</h1>
+          <h3>Hello There , I'm </h3>
+          <h2>SUNNY SINGH</h2>
           <h5>
             I'm a Bachelor of Technology student in Computer Science Engineering
             with a wide range of tech skills in various domains like Web

@@ -12,7 +12,7 @@
 
     .topbar{
         // background-color:#2587be;
-        background-color: #2587BE;
+        // background-color: #2587BE;
         // background-color: aqua;
         width: 100vw;
         height: 60px;
@@ -55,16 +55,13 @@
 
 
             .columb1{
-                background-color: black;
                 width: 250px;
                 height: 170px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                // background-color: bisque;
-                // background-color: #25a5be;
-                background-color: #25A5BE;
+                background-color: whitesmoke;
                 overflow: hidden;
                 border: 2px;
                 border-radius: 15px;
@@ -105,7 +102,7 @@
                 }
 
                 .outerbarhtml{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -134,8 +131,7 @@
                     }
                 }
                 .outerbarcss{
-                    background-color: whitesmoke;
-                    // background-color: rgb(58, 11, 11);
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -151,7 +147,6 @@
 
 
                     .innerbarcss{
-                        // background-color: rgb(58, 11, 11);
                         background-color: #555555;
                         height: 13px;
                         width: 160px;
@@ -165,7 +160,7 @@
                     }
                 }
                 .outerbarjava{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -194,7 +189,7 @@
                     }
                 }
                 .outerbarc{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -223,7 +218,7 @@
                     }
                 }
                 .outerbarreact{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -252,7 +247,7 @@
                     }
                 }
                 .outerbarnode{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -281,7 +276,7 @@
                     }
                 }
                 .outerbarexpress{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -310,7 +305,7 @@
                     }
                 }
                 .outerbarmongo{
-                    background-color: whitesmoke;
+                    background-color: rgb(217, 194, 194);
                     height: 15px;
                     width: 200px;
                     justify-content: center;
@@ -346,14 +341,7 @@
                     color:rgb(58, 11, 11);
                 }
 
-
-            }
-
-            
-
-            
-
-            
+            }            
 
         }
 
